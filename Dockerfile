@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:7.3.1
+FROM registry.connect.redhat.com/bitnami/elasticsearch
 USER root
 #RUN chgrp -R 0 /etc/sysctl.conf && chmod -R g=u /etc/sysctl.conf
 #RUN chgrp -R 0 /proc/sys/vm/max_map_count && chmod -R g=u /proc/sys/vm/max_map_count
